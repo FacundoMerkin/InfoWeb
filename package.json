@@ -1,0 +1,25 @@
+{
+  "name": "proyecto-dark",
+  "version": "1.0.0",
+  "description": "<h1>InfoWeb/Dark</h1>\r <p>Sitio web que funciona practicamente como una wiki de la serie de Netflix \"Dark\"</p>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/styles.scss css/styles.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FacundoMerkin/InfoWeb.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FacundoMerkin/InfoWeb/issues"
+  },
+  "homepage": "https://github.com/FacundoMerkin/InfoWeb#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.19"
+  }
+}
