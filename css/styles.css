@@ -1,3 +1,14 @@
+.footer {
+  background-color: #111111;
+  padding: 100px 600px;
+  display: flex; }
+  .footer__img {
+    width: 50px;
+    height: auto; }
+  .footer__label {
+    color: #d8d8d8;
+    padding: 20px 10px; }
+
 * {
   margin: 0px 0px;
   padding: 0px 0px; }
@@ -105,17 +116,6 @@
 .jonas-ulrich {
   grid-column: 3/5;
   grid-row: 4/5; }
-
-.footer {
-  background-color: #111111;
-  padding: 100px 600px;
-  display: flex; }
-  .footer__img {
-    width: 50px;
-    height: auto; }
-  .footer__label {
-    color: #d8d8d8;
-    padding: 20px 10px; }
 
 body {
   background-color: #111111; }
