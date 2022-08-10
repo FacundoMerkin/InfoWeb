@@ -34,6 +34,7 @@
     background-color: #364242;
 
     &__titulo{
+        text-align: center;
         color: #d8d8d8;
         padding: 50px 60px;
         font-family:'Courier New', Courier, monospace;
@@ -62,12 +63,18 @@
     }
     
     &__arbol{
-        display: flex;
-        padding: 10px 50px;
+        width: 75vw;
+        max-width: 1000px;
+        min-width: 320px;
+        margin: auto;
     }
+
+    .galeria img{
+        height: auto;
+        margin: 15px;
     
     &__arbol--img{
-        width: 1000px;
+        width: auto;
     }
     
     &__texto--arbol{
@@ -90,7 +97,7 @@
     }
 
     &__resumen{
-        padding: 30px 50px;
+        text-align: center;
     }
 }
 
@@ -156,5 +163,5 @@
 }
 
 body{
-    background-color: #111111;
+    background-color: #111111;}
 }
