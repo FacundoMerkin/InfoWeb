@@ -176,6 +176,23 @@
 .imagen-arbol {
   margin-bottom: 30px; }
 
+.imagen-fondo {
+  width: 100%;
+  object-fit: cover; }
+
+.titulo-index {
+  color: #fff;
+  background-color: #364242;
+  text-align: center;
+  padding: 20px; }
+
+.sinopsis {
+  color: #d8d8d8;
+  font-size: 1rem;
+  text-align: center;
+  padding: 30px 50px;
+  background-color: #364242; }
+
 body {
   background-color: #111111; }
 
