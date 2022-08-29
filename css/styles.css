@@ -154,18 +154,24 @@ body {
   width: 100%;
   height: auto; }
 
-@media screen and (max-width: 1300px) {
+@media screen and (max-width: 1200px) {
   .contenedor-imagenes {
+    width: 95%; }
+  .main__registrar {
     width: 95%; } }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 768px) {
   .contenedor-imagenes {
     width: 90%; }
   .contenedor-imagenes .imagen {
-    width: 48%; } }
+    width: 48%; }
+  .main__registrar {
+    width: 90%; } }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 576px) {
   .contenedor-imagenes {
     width: 98%; }
   .contenedor-imagenes .imagen {
+    width: 80%; }
+  .main__registrar {
     width: 80%; } }
