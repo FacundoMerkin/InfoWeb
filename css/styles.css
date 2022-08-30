@@ -247,4 +247,9 @@ body {
   .contenedor-imagenes .imagen {
     width: 80%; }
   .main__registrar {
-    width: 80%; } }
+    width: 80%; } 
+
+  .main__registrar--datos{
+    font-size: .75rem;
+  }
+  }
