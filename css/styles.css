@@ -40,6 +40,12 @@
     color: #d8d8d8;
     padding: 50px 60px;
     font-family: 'Courier New', Courier, monospace; }
+    .main__titulo-contactanos {
+      padding-top: 50px;
+      padding-bottom: 0px;
+      text-align: center;
+      color: #d8d8d8;
+      font-family: 'Courier New', Courier, monospace; }
   .main__sinopsis {
     display: flex;
     padding: 40px 0px; }
@@ -76,7 +82,7 @@
     color: white; }
   .main__registrar {
     width: 400px;
-    padding: 30px;
+    padding: 0px;
     margin: auto;
     margin-top: 50px;
     font-family: 'Courier New', Courier, monospace;
@@ -247,9 +253,4 @@ body {
   .contenedor-imagenes .imagen {
     width: 80%; }
   .main__registrar {
-    width: 80%; } 
-
-  .main__registrar--datos{
-    font-size: .75rem;
-  }
-  }
+    width: 80%; } }
